@@ -1,0 +1,80 @@
+{
+	"id": "0f869598-3b43-4c40-8b0d-c51fb1382931",
+	"name": "Task2 28 april",
+	"timestamp": "2021-04-29T11:25:03.541Z",
+	"collection_id": "ee30513a-5a23-4262-ad52-dcc588beb6ed",
+	"folder_id": "b3cb95c2-94ff-47a7-b733-23ace230d687",
+	"environment_id": "50f33eb4-e366-433e-8ee0-6d7ec784c872",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "99833ff3-9db8-44a9-a65a-2304f4fdef80",
+			"name": "object_info_4",
+			"url": "http://116.203.27.46:5002/object_info_4?age=27&name=Vika&salary=3600",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				76
+			],
+			"allTests": [
+				{
+					"Schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "8d7fc5ef-15aa-4782-9363-30ca48fb5847",
+			"name": "user_info_1",
+			"url": "http://116.203.27.46:5002/user_info_1?=&=&=",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				89
+			],
+			"allTests": [
+				{
+					"Schema is valid": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 165,
+	"collection": {
+		"requests": [
+			{
+				"id": "99833ff3-9db8-44a9-a65a-2304f4fdef80",
+				"method": "GET"
+			},
+			{
+				"id": "8d7fc5ef-15aa-4782-9363-30ca48fb5847",
+				"method": "POST"
+			}
+		]
+	}
+}
