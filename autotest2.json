@@ -1,0 +1,80 @@
+{
+	"id": "c7930453-bf10-4954-bb13-1e3b066655dd",
+	"name": "Task2 28 april",
+	"timestamp": "2021-04-29T11:24:07.332Z",
+	"collection_id": "ee30513a-5a23-4262-ad52-dcc588beb6ed",
+	"folder_id": "088fb33e-c4ac-429d-99f7-1801af39be96",
+	"environment_id": "50f33eb4-e366-433e-8ee0-6d7ec784c872",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9da9ae5f-2ac4-44a0-b438-3c5ea8a0f912",
+			"name": "object_info_3",
+			"url": "http://116.203.27.46:5002/object_info_3?age=26&salary=8000&name=Leha",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"Schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "0e9aedb3-9faf-4a41-802b-15eda43fc58a",
+			"name": "user_info_2",
+			"url": "http://116.203.27.46:5002/user_info_2",
+			"time": 110,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"Schema is valid": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 209,
+	"collection": {
+		"requests": [
+			{
+				"id": "9da9ae5f-2ac4-44a0-b438-3c5ea8a0f912",
+				"method": "GET"
+			},
+			{
+				"id": "0e9aedb3-9faf-4a41-802b-15eda43fc58a",
+				"method": "POST"
+			}
+		]
+	}
+}
